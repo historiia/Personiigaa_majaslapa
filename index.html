@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lailas mājaslapa</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/56c9e13cea.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation bar-->
+    <nav class="navbar"> 
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="fas fa-pen"></i><b>LB</b><i> blogs</i></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu"> 
+                <li class="navbar__item">
+                    <a href="parMani.html" class="navbar__links"> Par mani </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="majdzivnieki.html" class="navbar__links"> Mājdzīvnieki </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="music.html" class="navbar__links"> Mani mūzikas sarasti </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button"> sighn up </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero section-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Sveiki! <i class="fa fa-hand-wave"></i></h1>
+                <h2>Par emuāra jaunākajām ziņām lasiet lejā!</h2><br>
+                <p>Izvēlieties tematus par kuriem lasīt.</p>
+                <button class="main__btn"><a href="#blogs">Get Started</a></button>
+            </div>
+            <div class="main__image--container">
+                <img src="hero_sention_pic.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest blog post list section-->
+    <div class="blogs">
+        <br>
+        <h1>Emuāra raksti</h1>
+        <div class="blogs__container">
+            <div class="blogs__card">
+                <h2>Manu mūzikas sarakstu apkopojums.</h2>
+                <p>Manuprāt, dziesmas vislabāk apkopot mūzikas sarakstos pēc konkrētas emocionālās noskaņas. </p>
+                <button><a href="music.html"></a><b>Lasīt</b></button>
+            </div>
+            <div class="blogs__card">
+                <h2>Iepazīsties ar Mailo!</h2>
+                <p>Apķērīgs un zinātkārs kaķis, kas brīžiem var būt gan mlīgs, gan palaidnīgs. Tas ir Mailo.</p>
+                <button><a href="majdzivnieki.html"></a><b>Lasīt</b></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
