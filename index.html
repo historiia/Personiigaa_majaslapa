@@ -30,9 +30,6 @@
                 <li class="navbar__item">
                     <a href="music.html" class="navbar__links"> Mani mūzikas sarasti </a>
                 </li>
-                <li class="navbar__btn">
-                    <a href="/" class="button"> sighn up </a>
-                </li>
             </ul>
         </div>
     </nav>
@@ -41,31 +38,88 @@
     <div class="main">
         <div class="main__container">
             <div class="main__content">
-                <h1>Sveiki! <i class="fa fa-hand-wave"></i></h1>
+                <h1>Sveiki!</h1>
                 <h2>Par emuāra jaunākajām ziņām lasiet lejā!</h2><br>
                 <p>Izvēlieties tematus par kuriem lasīt.</p>
-                <button class="main__btn"><a href="#blogs">Get Started</a></button>
+                <button class="main__btn"><a href="#BLOGS">Temati</a></button>
             </div>
             <div class="main__image--container">
-                <img src="hero_sention_pic.svg" alt="pic" id="main__img">
+                <img src="theImages/hero_sention_pic.svg" alt="pic" id="main__img">
             </div>
         </div>
     </div>
 
     <!-- Latest blog post list section-->
-    <div class="blogs">
+    <div class="blogs" id="BLOGS">
         <br>
         <h1>Emuāra raksti</h1>
         <div class="blogs__container">
-            <div class="blogs__card">
-                <h2>Manu mūzikas sarakstu apkopojums.</h2>
-                <p>Manuprāt, dziesmas vislabāk apkopot mūzikas sarakstos pēc konkrētas emocionālās noskaņas. </p>
-                <button><a href="music.html"></a><b>Lasīt</b></button>
+            <a class="blog__link" href="music.html">
+                <div class="blogs__card">
+                    <h2>Manu mūzikas sarakstu apkopojums.</h2>
+                    <p>Manuprāt, dziesmas vislabāk apkopot mūzikas sarakstos pēc konkrētas emocionālās noskaņas. </p>
+                    <div class="blog__img_container">
+                        <img src="theImages/blooming_playlist.jpg" alt="playlist_image" id="blogs__playlistImage">
+                    </div>
+                </div>
+            </a>
+            <a class="blog__link" href="majdzivnieki.html">
+                <div class="blogs__card">
+                    <h2>Iepazīsties ar Mailo!</h2>
+                    <p>Apķērīgs un zinātkārs kaķis, kas brīžiem var būt gan mlīgs, gan palaidnīgs. Tas ir Mailo.</p>
+                    <div class="blog__img_container">
+                        <img src="theImages/cat2.JPG" alt="playlist_image" id="blogs__playlistImage">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Jūnija dziesmau TOP 5</h2>
+                    <a href="https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB?si=9a665129c3824a69&nd=1&dlsi=922defdb86b54ecc">Pirmā dziesma</a>
+                    <a href="https://open.spotify.com/track/2qSkIjg1o9h3YT9RAgYN75?si=526ee02c7a9446ed">Otrā dziesma</a>
+                    <a href="https://open.spotify.com/track/1fDFHXcykq4iw8Gg7s5hG9?si=818f7dc85f154948">Trešā dziesma</a>
+                    <a href="https://open.spotify.com/track/0PHReOWHNJ2zLDP4f8jGW2?si=f5163e5c7d564a6c">Ceturtā dziesma</a>
+                    <a href="https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m?si=7817b87a00074a23">Piektā dziesma</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Nākotnes rakstu temati</h2>
+                    <a href="https://www.rtk.lv/">RTK studenta ikdiena</a>
+                    <a href="https://www.dziesmusvetki.lv/lv/programma/svetku-nedela/">XXVII Vispārējie latviešu Dziesmu un XVII Deju svētki</a>
+                    <a href="https://datorium.eu/datorium-pygirls/">Datorium PyGirls kursu pieredze</a>
+                    <a href="https://eurovision.tv/event/malmo-2024">Eirovīzijas 2024 atskats</a>
+                    <a href="https://www.rtk.lv/lv/aktualitates/konkurss-erudicijas-speles-es-milu-tevi-latvija/">Kvalitatīva pasākumu organizēšana</a>
+                </div>
             </div>
-            <div class="blogs__card">
-                <h2>Iepazīsties ar Mailo!</h2>
-                <p>Apķērīgs un zinātkārs kaķis, kas brīžiem var būt gan mlīgs, gan palaidnīgs. Tas ir Mailo.</p>
-                <button><a href="majdzivnieki.html"></a><b>Lasīt</b></button>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas fa-pen"></i><b>LB</b><i> blogs</i></a>
+                </div>
+                <p class="website__rights">© LBblogs. Visas tiesības aizsargātas.</p>
+                <div class="social__icons">
+                    <a href="https://www.facebook.com/facebook" class="social__izons--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/instagram?igsh=anFrdjlvOGMzd3ps " class="social__izons--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/historiia" class="social__izons--link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@maybeimlaila/featured" class="social__izons--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://open.spotify.com/user/fs7ltoz9rpwk2wt4ebi0r64wh" class="social__izons--link" target="_blank">
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
