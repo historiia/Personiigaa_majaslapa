@@ -649,36 +649,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1180px) {
-    .aboutMe__text {
-        height: 40rem;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .aboutMe__text {
-        height: 50rem;
-    }
-}
-
-@media screen and (max-width: 795px) {
-    .aboutMe__text {
-        height: 60rem;
-    }
-}
-
-@media screen and (max-width: 630px) {
-    .aboutMe__text {
-        height: 70rem;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .aboutMe__text {
-        height: 78rem;
-    }
-}
-
 /*Majdzivnieki section*/
 .theBlog {
     background-color: #eaeaea;
