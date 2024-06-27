@@ -5,6 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/*Navigation bar section*/
 .navbar {
     background: #8d6298;
     height: 80px;
@@ -71,7 +72,7 @@
     color: #f3f3f3;
     transition: all 0.3s ease;
 }
-/*Mobile resposve*/
+
 @media screen and (max-width: 960px){
     .navbar__container{
         display: flex;
@@ -155,7 +156,7 @@
     }
 }
 
-/*Hero section CSS*/
+/*Hero section*/
 .main {
     background-color: #1c1b1b;
 }
@@ -251,7 +252,6 @@
     width: 80%;
 }
 
-/*Mobile responsive*/
 @media screen and (max-width: 768px) {
     .main__container {
         display: grid;
@@ -465,7 +465,6 @@
     transition: 0.3s ease-out;
 }
 
-/*Social icons*/
 .social__icon--link {
     color: #242424;
     font-size: 24px;
@@ -548,7 +547,7 @@
     align-items: center;
 }
 
-/*head section*/
+/*About me head section*/
 .aboutMe__head {
     background-color: #242424;
     display: flex;
@@ -611,7 +610,7 @@
     }
 }
 
-/*text section*/
+/*About me text section*/
 .aboutMe__text {
     background: #242424;
     background-image: linear-gradient(to bottom, #242424 0%, #676169 21%, #a681b0 52%, #b583c3 78%, #a96fb7 100%);
@@ -732,13 +731,13 @@
     }
 }
 
-/*The blog post*/
+/*The blog post section*/
 .theBlog__main{
     background: #242424;
     background-image: linear-gradient(to bottom, #242424 0%, #676169 21%, #a681b0 52%, #b583c3 78%, #a96fb7 100%);
     display: flex;
     flex: 1;
-    min-height: 3auto;
+    min-height: auto;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -849,13 +848,14 @@
 }
 
 /*Music blog secction*/
-/*head section change*/
+/*Music blog head section*/
 .spotify_logo {
     color: #eaeaea;
     font-size: 5rem;    
     margin-left: 40px;
 }
 
+/*Music blog text/blog post section*/
 .playlist__card--container {
     display: flex;
     flex-wrap: wrap;
